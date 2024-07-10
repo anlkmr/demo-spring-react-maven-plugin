@@ -12,7 +12,7 @@ RUN apt-get update -y && \
     apt-get install -y nodejs npm && \
     npm install -g copyfiles@latest && \
     npm install -g @npmcli/config
-RUN git clone -b feature/dev-feature-management https://anilkadiga1:ATBBprrPnrA5dGAbeKUyeqnjtARfDD2CD28C@bitbucket.org/cestasoft/bpe-mobileservices-outbound.git .
+RUN git clone https://github.com/anlkmr/demo-spring-react-maven-plugin.git .
 #WORKDIR /app/bpe-mobileservices-outbound
 # Build the Spring Boot application
 
